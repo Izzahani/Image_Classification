@@ -19,15 +19,15 @@
   <ol>- Display some examples to see if the dataset has been uploaded successfully.</ol>
   <p align="center"><img src="image_example.png" alt="image example" width="500"/></p>
   <div align="center"><ol>The figure above shows the random images in the dataset and it's label.</ol></div>
-  
+  <ol>-Then, convert the dataset into prefetch dataset</ol>
   
 <p>2. Model Development</p>
-   <ol>- Inspect the dataset to check whether the dataset contains NULL or any other unwanted things.</ol>
-   <ol>- I used <strong>df.info()</strong> to explore the data. The datatype for <em>new_cases</em> is object. It means that, there is something besides numerical value in the dataset.</ol>
-   <ol>- Then, I used <strong>df.isnull().sum()</strong> to find the amount of NaN in the data. As for now, there is no NaN value in the data. However, we can still check if there is NaN value in the dataset, again.</ol>
-<p align="center"><img src="image_example.png" alt="image example" width="500"/></p>
-<ol></ol>
-
+   <ol>- In this part, I create a model augmentation. I could rotate the image in many form. So it can increase the diversity of the training set by applying random (but realistic) transformations.</ol>
+  <ol>-Then, I applied the data augmentation into one image to see the result.</ol>
+  
+  <ol>- To proceed on doing transfer learning, I create the layer for data normalization by using <strong>tf.keras.applications.mobilenet_v2.preprocess_input</strong></ol>
+  <ol>- Then, I start the transfer learning by instantiate the pretrained model</ol>
+  <ol>- 
 
 <p>3. Model Deployment</p>
    <ol>- Data cleaning need to be done to increase overall productivity and allow for the highest quality information in your decision-making.</ol>

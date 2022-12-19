@@ -25,9 +25,14 @@
    <ol>- In this part, I create a model augmentation. I could rotate the image in many form. So it can increase the diversity of the training set by applying random (but realistic) transformations.</ol>
   <ol>-Then, I applied the data augmentation into one image to see the result.</ol>
   
-  <ol>- To proceed on doing transfer learning, I create the layer for data normalization by using <strong>tf.keras.applications.mobilenet_v2.preprocess_input</strong></ol>
-  <ol>- Then, I start the transfer learning by instantiate the pretrained model</ol>
-  <ol>- 
+  <ol>- To proceed on doing transfer learning, I create the layer for data normalization by using <strong>tf.keras.applications.mobilenet_v2.preprocess_input.</strong></ol>
+  <ol>- Then, I start the transfer learning by instantiate the pretrained model.</ol>
+  <ol>- I set the pretrained model as non-trainable to avoid destroying any of the information they contain during future training rounds.</ol>
+  <ol>- Create the new classifier by using <strong>layers.GlobalAveragePooling2D()</strong>.</ol>
+  <ol>- The <strong>Dense layer</strong> is being used to create an output layer</ol>
+  <ol>- Link the layers together</ol>
+  <ol>- Initiate the full model pipeline and compile the model</ol>
+<ol>- Evaluate the model before combine with testing data. The accuracy we got is 50%.</ol>
 
 <p>3. Model Deployment</p>
    <ol>- Data cleaning need to be done to increase overall productivity and allow for the highest quality information in your decision-making.</ol>

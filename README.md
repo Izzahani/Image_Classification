@@ -19,7 +19,7 @@
   <ol>- Display some examples to see if the dataset has been uploaded successfully.</ol>
   <p align="center"><img src="image_example.png" alt="image example" width="500"/></p>
   <div align="center"><ol>The figure above shows the random images in the dataset and it's label.</ol></div>
-  <ol>-Then, convert the dataset into prefetch dataset</ol>
+  <ol>-Then, convert the dataset into prefetch dataset.</ol>
   
 <p>2. Model Development</p>
    <ol>- In this part, I create a model augmentation. I could rotate the image in many form. So it can increase the diversity of the training set by applying random (but realistic) transformations.</ol>
@@ -29,18 +29,18 @@
   <ol>- Then, I start the transfer learning by instantiate the pretrained model.</ol>
   <ol>- I set the pretrained model as non-trainable to avoid destroying any of the information they contain during future training rounds.</ol>
   <ol>- Create the new classifier by using <strong>layers.GlobalAveragePooling2D()</strong>.</ol>
-  <ol>- The <strong>Dense layer</strong> is being used to create an output layer</ol>
-  <ol>- Link the layers together</ol>
-  <ol>- Initiate the full model pipeline and compile the model</ol>
+  <ol>- The <strong>Dense layer</strong> is being used to create an output layer.</ol>
+  <ol>- Link the layers together.</ol>
+  <ol>- Initiate the full model pipeline and compile the model.</ol>
 <ol>- Evaluate the model before combine with testing data. The accuracy we got is 50%.</ol>
-<ol>- The accuracy can be improved by applying tensorboard call back and early stopping</ol>
+<ol>- The accuracy can be improved by applying tensorboard call back and early stopping.</ol>
 <ol>- The accuracy was around 99%.</ol>
 <ol>- Then, I proceed to include testing data.</ol>
-<ol>- I applied transfer learning and use for loop to freeze some layers</ol>
+<ol>- I applied transfer learning and use for loop to freeze some layers.</ol>
 <ol>The epoch was set to follow up the previous model training.</ol>
-<ol>- Then, I compiled the model and did the model training</ol>
+<ol>- Then, I compiled the model and did the model training.</ol>
 
-p>3. Model Deployment</p>
+<p>3. Model Deployment</p>
 <ol>- The accuracy we got is 100%. The image below shows my classification report.</ol>
  <p align="center"><img src="classification report.png" alt="classification report" width="500"/></p>
  

@@ -33,7 +33,7 @@
   <ol>- Initiate the full model pipeline and compile the model.</ol>
 <ol>- Evaluate the model before combine with testing data. The accuracy I got is 50%.</ol>
 <ol>- The accuracy can be improved by applying tensorboard call back and early stopping.</ol>
-<ol>- The accuracy was around 99%.</ol>
+<ol>- Then,the accuracy increased to 99%.</ol>
 <ol>- Then, I proceed to include testing data.</ol>
 <ol>- I applied transfer learning and use for loop to freeze some layers.</ol>
 <ol>The epoch was set to follow up the previous model training.</ol>

@@ -45,7 +45,7 @@ p>3. Model Deployment</p>
  <p align="center"><img src="classification report.png" alt="classification report" width="500"/></p>
  
  <p align="center"><img src="epoch_acc.png" alt="epoch acc" width="500"/></p>
- <div align="center"><ol> This is the accuracy graph. As we can see in the graph, the model is good fit. It </ol></div>
+ <div align="center"><ol> This is the accuracy graph. As we can see in the graph, the model is good fit. It is because I used transfer learning during model development. Transfer learning models achieve optimal performance faster than the traditional ML models. It is because the models that leverage knowledge (features, weights, etc.) from previously trained models already understand the features.</ol></div>
   
  <p align="center"><img src="epoch_loss.png" alt="epoch loss" width="500"/></p>
  

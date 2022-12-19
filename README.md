@@ -31,7 +31,7 @@
   <ol>- The <strong>Dense layer</strong> is being used to create an output layer.</ol>
   <ol>- Link the layers together.</ol>
   <ol>- Initiate the full model pipeline and compile the model.</ol>
-<ol>- Evaluate the model before combine with testing data. The accuracy we got is 50%.</ol>
+<ol>- Evaluate the model before combine with testing data. The accuracy I got is 50%.</ol>
 <ol>- The accuracy can be improved by applying tensorboard call back and early stopping.</ol>
 <ol>- The accuracy was around 99%.</ol>
 <ol>- Then, I proceed to include testing data.</ol>

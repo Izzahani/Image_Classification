@@ -40,7 +40,7 @@
 <ol>- Then, I compiled the model and did the model training.</ol>
 
 <p>3. Model Deployment</p>
-<ol>- The accuracy we got is 100%. The image below shows my classification report.</ol>
+<ol>- I received 100% accuracy. The image below shows my classification report.</ol>
  <p align="center"><img src="classification report.png" alt="classification report" width="500"/></p>
  
  <p align="center"><img src="epoch_acc.png" alt="epoch acc" width="500"/></p>

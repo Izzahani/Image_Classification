@@ -44,7 +44,7 @@ p>3. Model Deployment</p>
 <ol>- The accuracy we got is 100%. The image below shows my classification report.</ol>
  <p align="center"><img src="classification report.png" alt="classification report" width="500"/></p>
  
- <p align="center"><img src="" alt="epoch_acc.png" width="500"/></p>
+ <p align="center"><img src="" alt="epoch_acc.png" alt="epoch acc" width="500"/></p>
  <div align="center"><ol> This is the accuracy graph. As we can see in the graph, the model is underfitting. It occurs when the model has not learned enough from the training data, resulting in low generalization and unreliable predictions</ol></div>
   
  <p align="center"><img src="epoch_loss.png" alt="epoch loss" width="500"/></p>

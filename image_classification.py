@@ -12,7 +12,7 @@ from tensorflow.keras.callbacks import TensorBoard, EarlyStopping
 from sklearn.metrics import classification_report
 
 # %% Data Loading
-DATA_PATH = os.path.join(os.getcwd(), 'dataset', 'Concrete Crack Images for Classification')
+DATA_PATH = os.path.join(os.getcwd(), 'dataset' )
 
 # %%
 # Define batch size and image size
